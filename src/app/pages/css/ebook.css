@@ -1,0 +1,105 @@
+.pending{
+    position: fixed;
+    width: 100%;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    top: 1.8rem;
+    text-align: right;
+    padding: 0 0.6rem;
+    box-sizing: border-box;
+    z-index: 2222;
+    background: #fff;
+}
+.pending .btn{
+    border: none;
+    padding: 0.6em 0.8rem 0.5em;
+}
+.list{
+    margin-top: 3.6rem;
+}
+.list li{
+    position: relative;
+    min-height: 500px;
+}
+.list li .wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.list li p{
+    color: #000;
+    text-align: center;
+}
+.list li p.title{
+    font-size: 1.333333rem;
+    margin-bottom: 0.2866666rem;
+}
+.list li p.title.mb-0{
+    margin-bottom: 0;
+}
+.fourth p.mb-16{
+    margin-bottom: 0.35rem;
+}
+.list li p.sub-title{
+    font-size: 0.66666666rem;
+}
+.list li p.desc{
+    font-size: 0.3rem;
+    line-height: 0.5rem;
+}
+.first p:first-child{
+    margin-top: 3.12rem;
+}
+.second p:first-child{
+    margin-top: 3rem;
+}
+.third p:first-child{
+    margin-top: 3.5rem;
+}
+.list li .fourth p:first-child{
+    margin-top: 1.2rem;
+    margin-bottom: 0.6rem;
+}
+.fifth p:first-child{
+    margin-top: 3rem;
+}
+.sixth p:first-child{
+    margin-top: 3.5rem;
+}
+.seventh p:first-child{
+    margin-top: 3rem;
+}
+.eigth p:first-child{
+    margin-top: 2rem;
+}
+.nineth p:first-child{
+    margin-top: 2rem;
+}
+.list li .nineth .first{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+.list li .nineth .clearfix p{
+    width: 48%;
+    margin: 0;
+}
+.list li .nineth .clearfix .fr{
+    width: 43%;
+}
+.clearfix p.fl{
+    text-align: right;
+}
+.clearfix p.fr{
+    text-align: left;
+}
+.list li .tenth p:first-child{
+    margin-top: 3rem;
+    margin-bottom: 1.2rem;
+}
+.list img{
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+}
