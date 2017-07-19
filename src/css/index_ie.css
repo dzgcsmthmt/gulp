@@ -1,0 +1,51 @@
+#talkbox{
+    background: none;
+    position: relative;
+    overflow: hidden;
+}
+#inner{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 100%;
+    background: url('../img/talkbox.png') no-repeat;
+}
+.detail{
+    display: none;
+}
+#role .detail .panel-hover{
+    display: none;
+}
+#role .detail:hover .panel{
+    display: none;
+}
+#role .detail i.arrow{
+    display: none;
+}
+#role .detail:hover i.arrow{
+    display: none;
+}
+#role .detail:hover .panel-hover{
+    display: block;
+}
+#role .detail p{
+    color: #fff;
+}
+#role a:visited p{
+    color: #fff;
+}
+#role a:hover p{
+    color: #fff;
+}
+#role a:active p{
+    color: #fff;
+}
+.barcode i.code{
+    display: none;
+}
+.barcode:hover i.code{
+    display: block;
+}
+#move{
+    display: none;
+}
